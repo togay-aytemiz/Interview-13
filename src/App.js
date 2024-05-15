@@ -56,9 +56,9 @@ const CustomProgram = () => {
 
   return (
     <>
-      <div className="mt-10 ml-10">
+      <div className="sm:mt-10 sm:ml-10 ml-2 mt-2">
         {/* Button area */}
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-wrap">
           <button
             className="p-2 bg-slate-100 border rounded-md"
             onClick={handleOperation}
@@ -84,7 +84,7 @@ const CustomProgram = () => {
             Decrement
           </button>
 
-          <div className="w-[1px] bg-slate-600 mx-4"></div>
+          <div className="sm:w-[1px] bg-slate-600 sm:mx-4"></div>
 
           <button
             className="p-2 bg-slate-100 border rounded-md"
